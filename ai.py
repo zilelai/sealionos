@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-API_KEY = os.getenv("AQ.Ab8RN6JYjRgbhHnrRd1nfxqov6ZYR6mV5R1Ul4PJB47A7s4F3g")
+API_KEY = os.getenv("YOUR_API")
 
 if not API_KEY:
     raise RuntimeError("Missing GEMINI_API_KEY environment variable")
